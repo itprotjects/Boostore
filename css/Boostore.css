@@ -5,13 +5,14 @@
 body {
         margin: 0;
         padding: 0;
-        background-color: #ffffff;
+        background-color: #d2deee;
         color: #333;
         line-height: 1.6;
     }
 
+
 .header {
-    background-color: #dcdcdc;
+    background-color: #688fb8;
     padding: 1.5rem;
     border-bottom: 1px solid #eaeaea;
     display: flex;
@@ -22,16 +23,16 @@ body {
 
 .web-name {
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #333;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .web-name a{
     text-decoration: none;
-    background-color: #333;
+    background-color: #d2deee;
     border-radius: 10px;
-    color: whitesmoke;
+    color: #333;
     padding: 15px 20px;
     transition: 0.5s;
 }
@@ -45,12 +46,20 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
+.header-bar svg{
+   font-size: 20px;
+    margin-bottom: 4px;
+} 
+
 .header-bar a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
     text-decoration: none;
-    color: #333;
+    color: #d2deee;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 12px;
@@ -58,15 +67,26 @@ body {
     transition: all 0.3s ease;
 }
 
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item svg {
+    margin-bottom: 4px;
+    fill: #333;
+}
+
 .header-bar a:hover {
-    background-color: #333;
-    color: white;
-    padding: 12px 16px;
+    background-color: #d2deee;
+    color: #333;
+    padding: 10px 14px;
 }
 
 .theme-change {
-    background-color: #333;
-    color: white;
+    background-color: #d2deee;
+    color: #333;
     border: none;
     padding: 8px 16px;
     border-radius: 10px;
@@ -79,32 +99,5 @@ body {
     padding: 12px 20px;
 }
 
-.search-bar {
-    display: flex;
-    gap: 8px;
-}
 
-.search-bar input {
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    outline: none;
-}
 
-.search-bar input:focus {
-    border-color: #333;
-}
-
-.search-bar button {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 8px 14px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.search-bar button:hover {
-    opacity: 0.8;
-}
