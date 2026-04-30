@@ -35,7 +35,7 @@ const books = [
   genre: "Fiction",
   rating: 4.8,
   pages: 281,
-  cover: "covers/mockingbird.jpg"
+  cover: "images/To Kill a Mockingbird.jpg"
 },
 {
   id: 2,
@@ -45,7 +45,7 @@ const books = [
   genre: "Dystopian",
   rating: 4.7,
   pages: 328,
-  cover: "covers/1984.jpg"
+  cover: "images/1984.jpg"
 },
 {
   id: 3,
@@ -55,7 +55,7 @@ const books = [
   genre: "Classic",
   rating: 4.4,
   pages: 180,
-  cover: "covers/gatsby.jpg"
+  cover: "images/The Great Gatsby.jpg"
 },
 {
   id: 4,
@@ -65,7 +65,7 @@ const books = [
   genre: "Adventure",
   rating: 4.1,
   pages: 635,
-  cover: "covers/mobydick.jpg"
+  cover: "images/Moby Dick.jpg"
 },
 {
   id: 5,
@@ -75,7 +75,7 @@ const books = [
   genre: "Romance",
   rating: 4.6,
   pages: 279,
-  cover: "covers/pride.jpg"
+  cover: "images/Pride and Prejudice.jpg"
 },
 {
   id: 6,
@@ -85,7 +85,7 @@ const books = [
   genre: "Fantasy",
   rating: 4.8,
   pages: 310,
-  cover: "covers/hobbit.jpg"
+  cover: "images/The Hobbit.jpg"
 },
 {
   id: 7,
@@ -95,7 +95,7 @@ const books = [
   genre: "Fiction",
   rating: 4.2,
   pages: 277,
-  cover: "covers/catcher.jpg"
+  cover: "images/The Catcher in the Rye.jpg"
 },
 {
   id: 8,
@@ -105,7 +105,7 @@ const books = [
   genre: "Dystopian",
   rating: 4.5,
   pages: 311,
-  cover: "covers/brave.jpg"
+  cover: "images/Brave New World.jpg"
 },
 {
   id: 9,
@@ -115,7 +115,7 @@ const books = [
   genre: "Philosophical",
   rating: 4.3,
   pages: 208,
-  cover: "covers/alchemist.jpg"
+  cover: "images/The Alchemist.jpg"
 },
 {
   id: 10,
@@ -125,7 +125,7 @@ const books = [
   genre: "Fantasy",
   rating: 4.9,
   pages: 1178,
-  cover: "covers/lotr.jpg"
+  cover: "images/The Lord of the Rings.jpg"
 },
 {
   id: 11,
@@ -135,7 +135,7 @@ const books = [
   genre: "Fantasy",
   rating: 4.9,
   pages: 309,
-  cover: "covers/hp1.jpg"
+  cover: "images/Harry Potter and the Sorcerer's Stone.jpg"
 },
 {
   id: 12,
@@ -145,7 +145,7 @@ const books = [
   genre: "Thriller",
   rating: 4.1,
   pages: 489,
-  cover: "covers/davinci.jpg"
+  cover: "images/The Da Vinci Code.jpg"
 },
 {
   id: 13,
@@ -155,7 +155,7 @@ const books = [
   genre: "Dystopian",
   rating: 4.6,
   pages: 374,
-  cover: "covers/hunger.jpg"
+  cover: "images/The Hunger Games.jpg"
 },
 {
   id: 14,
@@ -165,7 +165,7 @@ const books = [
   genre: "Historical",
   rating: 4.7,
   pages: 552,
-  cover: "covers/thief.jpg"
+  cover: "images/The Book Thief.jpg"
 },
 {
   id: 15,
@@ -175,7 +175,7 @@ const books = [
   genre: "Classic",
   rating: 4.5,
   pages: 500,
-  cover: "covers/jane.jpg"
+  cover: "images/Jane Eyre.jpg"
 },
 {
   id: 16,
@@ -185,7 +185,7 @@ const books = [
   genre: "Classic",
   rating: 4.2,
   pages: 416,
-  cover: "covers/wuthering.jpg"
+  cover: "images/Wuthering Heights.jpg"
 },
 {
   id: 17,
@@ -195,7 +195,7 @@ const books = [
   genre: "Philosophical",
   rating: 4.6,
   pages: 671,
-  cover: "covers/crime.jpg"
+  cover: "images/Crime and Punishment.jfif"
 },
 {
   id: 18,
@@ -205,7 +205,7 @@ const books = [
   genre: "Drama",
   rating: 4.7,
   pages: 371,
-  cover: "covers/kite.jpg"
+  cover: "images/The Kite Runner.jpg"
 },
 {
   id: 19,
@@ -215,7 +215,7 @@ const books = [
   genre: "Romance",
   rating: 4.4,
   pages: 313,
-  cover: "covers/fault.jpg"
+  cover: "images/The Fault in Our Stars.jpg"
 },
 {
   id: 20,
@@ -225,7 +225,7 @@ const books = [
   genre: "Fantasy",
   rating: 4.7,
   pages: 767,
-  cover: "covers/narnia.jpg"
+  cover: "images/The Chronicles of Narnia.jpg"
 },
 {
   id: 21,
@@ -235,7 +235,7 @@ const books = [
   genre: "Political",
   rating: 4.6,
   pages: 112,
-  cover: "covers/animal.jpg"
+  cover: "images/Animal Farm.jpg"
 },
 {
   id: 22,
@@ -245,7 +245,7 @@ const books = [
   genre: "Horror",
   rating: 4.5,
   pages: 447,
-  cover: "covers/shining.jpg"
+  cover: "images/The Shining.jpg"
 },
 {
   id: 23,
@@ -255,7 +255,7 @@ const books = [
   genre: "Horror",
   rating: 4.3,
   pages: 418,
-  cover: "covers/dracula.jpg"
+  cover: "images/Dracula.jpg"
 },
 {
   id: 24,
@@ -265,7 +265,7 @@ const books = [
   genre: "Sci-Fi",
   rating: 4.2,
   pages: 280,
-  cover: "covers/frankenstein.jpg"
+  cover: "images/Frankenstein.jpg"
 },
 {
   id: 25,
@@ -275,7 +275,7 @@ const books = [
   genre: "Sci-Fi",
   rating: 4.8,
   pages: 412,
-  cover: "covers/dune.jpg"
+  cover: "images/Dune.jpg"
 },
 {
   id: 26,
@@ -285,7 +285,7 @@ const books = [
   genre: "Post-Apocalyptic",
   rating: 4.3,
   pages: 287,
-  cover: "covers/road.jpg"
+  cover: "images/The Road.jpg"
 },
 {
   id: 27,
@@ -295,7 +295,7 @@ const books = [
   genre: "Thriller",
   rating: 4.2,
   pages: 422,
-  cover: "covers/gonegirl.jpg"
+  cover: "images/Gone Girl.jpg"
 },
 {
   id: 28,
@@ -305,7 +305,7 @@ const books = [
   genre: "Crime",
   rating: 4.4,
   pages: 465,
-  cover: "covers/dragon.jpg"
+  cover: "images/The Girl with the Dragon Tattoo.jpg"
 },
 {
   id: 29,
@@ -315,7 +315,7 @@ const books = [
   genre: "Fantasy",
   rating: 4.8,
   pages: 694,
-  cover: "covers/got.jpg"
+  cover: "images/A Game of Thrones.jpg"
 },
 {
   id: 30,
@@ -325,7 +325,7 @@ const books = [
   genre: "Sci-Fi",
   rating: 4.7,
   pages: 369,
-  cover: "covers/martian.jpg"
+  cover: "images/The Martian.jpg"
 },
 {
   id: 31,
@@ -335,7 +335,7 @@ const books = [
   genre: "Adventure",
   rating: 4.4,
   pages: 319,
-  cover: "covers/pi.jpg"
+  cover: "images/Life of Pi.jpg"
 },
 {
   id: 32,
@@ -345,7 +345,7 @@ const books = [
   genre: "Sci-Fi",
   rating: 4.2,
   pages: 275,
-  cover: "covers/slaughterhouse.jpg"
+  cover: "images/Slaughterhouse-Five.jpg"
 },
 {
   id: 33,
@@ -355,7 +355,7 @@ const books = [
   genre: "Dystopian",
   rating: 4.5,
   pages: 311,
-  cover: "covers/handmaid.jpg"
+  cover: "images/The Handmaid’s Tale.jpg"
 },
 {
   id: 34,
@@ -365,7 +365,7 @@ const books = [
   genre: "Philosophical",
   rating: 4.4,
   pages: 254,
-  cover: "covers/dorian.jpg"
+  cover: "images/The Picture of Dorian Gray.jpg"
 },
 {
   id: 35,
@@ -375,7 +375,7 @@ const books = [
   genre: "Existential",
   rating: 4.2,
   pages: 123,
-  cover: "covers/stranger.jpg"
+  cover: "images/The Stranger.jpg"
 },
 {
   id: 36,
@@ -385,7 +385,7 @@ const books = [
   genre: "Dystopian",
   rating: 4.6,
   pages: 249,
-  cover: "covers/f451.jpg"
+  cover: "images/Fahrenheit 451.jpg"
 },
 {
   id: 37,
@@ -395,7 +395,7 @@ const books = [
   genre: "Epic",
   rating: 4.3,
   pages: 541,
-  cover: "covers/odyssey.jpg"
+  cover: "images/The Odyssey.jpg"
 },
 {
   id: 38,
@@ -405,7 +405,7 @@ const books = [
   genre: "Epic",
   rating: 4.2,
   pages: 683,
-  cover: "covers/iliad.jpg"
+  cover: "images/The Iliad.jpg"
 },
 {
   id: 39,
@@ -415,7 +415,7 @@ const books = [
   genre: "Classic",
   rating: 4.1,
   pages: 863,
-  cover: "covers/quixote.jpg"
+  cover: "images/Don Quixote.jpg"
 },
 {
   id: 40,
@@ -425,7 +425,7 @@ const books = [
   genre: "Historical",
   rating: 4.7,
   pages: 1463,
-  cover: "covers/lesmis.jpg"
+  cover: "images/Les Misérables.jpg"
 },
 {
   id: 41,
@@ -435,7 +435,7 @@ const books = [
   genre: "Adventure",
   rating: 4.8,
   pages: 1276,
-  cover: "covers/montecristo.jpg"
+  cover: "images/The Count of Monte Cristo.jpg"
 },
 {
   id: 42,
@@ -445,7 +445,7 @@ const books = [
   genre: "Historical",
   rating: 4.5,
   pages: 1225,
-  cover: "covers/warpeace.jpg"
+  cover: "images/War and Peace.jpg"
 },
 {
   id: 43,
@@ -455,7 +455,7 @@ const books = [
   genre: "Philosophical",
   rating: 4.7,
   pages: 824,
-  cover: "covers/karamazov.jpg"
+  cover: "images/The Brothers Karamazov.jpg"
 },
 {
   id: 44,
@@ -465,7 +465,7 @@ const books = [
   genre: "Classic",
   rating: 4.1,
   pages: 336,
-  cover: "covers/lolita.jpg"
+  cover: "images/Lolita.jpg"
 },
 {
   id: 45,
@@ -475,7 +475,7 @@ const books = [
   genre: "Classic",
   rating: 4.3,
   pages: 127,
-  cover: "covers/oldman.jpg"
+  cover: "images/The Old Man and the Sea.jpg"
 },
 {
   id: 46,
@@ -485,7 +485,7 @@ const books = [
   genre: "Dystopian",
   rating: 4.3,
   pages: 240,
-  cover: "covers/giver.jpg"
+  cover: "images/The Giver.jpg"
 },
 {
   id: 47,
@@ -495,7 +495,7 @@ const books = [
   genre: "Sci-Fi",
   rating: 4.6,
   pages: 374,
-  cover: "covers/rpo.jpg"
+  cover: "images/Ready Player One.jpg"
 },
 {
   id: 48,
@@ -505,7 +505,7 @@ const books = [
   genre: "Dystopian",
   rating: 4.2,
   pages: 375,
-  cover: "covers/maze.jpg"
+  cover: "images/The Maze Runner.jpg"
 },
 {
   id: 49,
@@ -515,7 +515,7 @@ const books = [
   genre: "Fantasy",
   rating: 4.7,
   pages: 377,
-  cover: "covers/percy.jpg"
+  cover: "images/Percy Jackson & The Lightning Thief.jpg"
 },
 {
   id: 50,
@@ -525,7 +525,7 @@ const books = [
   genre: "Thriller",
   rating: 4.3,
   pages: 336,
-  cover: "covers/silent.jpg"
+  cover: "images/The Silent Patient.jpg"
 }
 ];
 
@@ -537,7 +537,7 @@ const listBtn = document.getElementById("listBtn");
 const booksContainer = document.getElementById("books");
 
 function displayBooks(list) {
-    booksContainer.innerHTML = "";
+booksContainer.innerHTML = "";
     list.forEach(book => {
         const bookCard = document.createElement("div");
         bookCard.classList.add("book");
@@ -575,6 +575,4 @@ listBtn.addEventListener("click", () => {
 });
 
 // display on the page
-booksContainer.classList.add("grid");
-gridBtn.classList.add("active");
 displayBooks(books);
