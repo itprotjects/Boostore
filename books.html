@@ -4,7 +4,6 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Boostore.css" id="theme-link">
-    <link rel="stylesheet" href="css/books.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Bookshelf</title>
 </head>
@@ -77,7 +76,7 @@
 
     <!-- search area -->
     <section class="container">
-        <h1> Book-shelf</h1>
+        <h1> search </h1>
 
         <form class="search-bar">
             <input type="text" placeholder="Search books...">
@@ -87,48 +86,16 @@
 
   <!-- Layout Button -->
     <section class="controls">
-        <button class="active">Grid</button>
-        <button>List</button>
+        <button id="gridBtn"class="active">Grid</button>
+        <button id="listBtn">List</button>
     </section>
 
   <!--  Books Container -->
     <main id="books" class="grid">
+        
+    </main>
 
-    <!-- first book-->
-    <div class="book">
-        <a href="details.html">
-            <img src="images/Crime and Punishment.jfif"> 
-            <h3>Crime and Punishment</h3>
-            <p class="author-name">Fyodor Dostoevsky</p>
-            <p >
-        A young man commits a crime and struggles with guilt, fear, and moral consequences
-        </p>
-      
-        <p class="meta">
-          ⭐5 | Philosophical novel | 1866
-        </p>
-        </a>
-    </div>
-
-    <!--second book -->
-    <div class="book">
-        <a href="details.html">
-            <img src="images/white nights.jfif">
-            <h3>white nights</h3>
-            <p class="author-name">Fyodor Dostoevsky</p>
-            <p>
-          A lonely man in Saint Petersburg falls in love over four nights with a girl who is still waiting for someone else.
-        </p>
-      
-        <p class="meta">
-          ⭐ 4.5 | Psychological fiction| 1848
-        </p>
-        </a>
-    </div>
-
-  </main>
-
-  <script src="JS/Boostore.js"></script>
-
+    
+    <script src="JS/Boostore.js"></script>
 </body>
 </html>
