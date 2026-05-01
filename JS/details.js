@@ -1,10 +1,10 @@
 // in details page //
 // to render the book user clicked on in books page //
 
-const url = new URLSearchParams(window.location.search)
+const url = new URLSearchParams(window.location.search);
 const book_id = url.get('id');
 
-const book = books.find(b => b.id == book_id);
+const book = books.find(books => books.id == book_id);
 
 const details_container = document.getElementById("details-view");
 
@@ -23,7 +23,7 @@ if(book){
                 </p>
 
                 <ul class="info-list">
-                    <li><strong>Author</strong>.....<i>${book.author}</i></li>
+                    <li><strong>Author</strong>.....<i><a href="author.html?id=${book.id}">${book.author}</a></i></li>
                     <li><strong>Genre</strong> ...<i>${book.genre}</i></li>
                     <li><strong>Year</strong> ....<i>${book.year}</i></li>
                     <li><strong>Pages</strong> ....<i>${book.pages}</i></li>
