@@ -28,6 +28,19 @@ booksContainer.innerHTML = "";
     });
 }
 
+/* <div class="book"> 
+    <a href="book id">
+        <img src="book image" alt="book name">
+        <h3>book name</h3>
+        <p class="author-name">author name</p>
+        <p>genre | year</p>
+        <p class="meta">rating | books pages</p>
+    </a>
+</div> */ 
+// all that insid a main with id books and class grid
+
+
+
 // switch to grid
 gridBtn.addEventListener("click", () => {
     booksContainer.classList.add("grid");
