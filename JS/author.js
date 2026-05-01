@@ -1,11 +1,11 @@
-const url = new URLSearchParams(window.location.search);
-const author_id = url.get('id');
+const url = new URLSearchParams(window.location.search); // get url from page
+const author_id = url.get('id');// author_id = id of the url(which is the book id)
 
-const author = books.find(b => b.id == author_id); 
-const author_container = document.getElementById("author_page");
-
+const author = books.find(books => books.id == author_id);// author =  id where it matches the book
+const author_container = document.getElementById("author_page");// get id to write html inside it
+//saftey
 if(author){
-    // 1. First, inject the Author info AND the section for the books
+    //write html
     author_container.innerHTML = `
         <section class="author-container">
             <div class="image-Author">
@@ -21,13 +21,12 @@ if(author){
         <section id="books" class="grid"></section>
     `;
     
-    // 2. Now that the HTML is injected, we can find the books container
+    
     const books_render = document.getElementById("books");
     
-    // 3. Filter the books
     const author_books = books.filter(b => b.author === author.author);
 
-    // 4. Create the book cards one by one
+    
     author_books.forEach(b => {
         const bookCard = document.createElement("div"); // Create a new div
         bookCard.classList.add("book"); // Give it the class
