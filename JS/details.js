@@ -1,31 +1,38 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const themeBtn = document.querySelector('.theme-change');
-    const themeLink = document.querySelector('#theme-link');
+// in details page //
+// to render the book user clicked on in books page //
 
-    // check if theme was already saved
-    const savedTheme = localStorage.getItem('theme');
+const url = new URLSearchParams(window.location.search)
+const book_id = url.get('id');
 
+const book = books.find(b => b.id == book_id);
 
-    if (savedTheme) {
-        themeLink.setAttribute('href', savedTheme);
-    }
+const details_container = document.getElementById("details-view");
 
-    themeBtn.addEventListener('click', () => {
-        let currentTheme = themeLink.getAttribute('href');
-        let newTheme;
+if(book){
+    details_container.innerHTML = `
 
-        if (currentTheme === 'css/Boostore.css') { //if theme is light mode
-            newTheme = 'css/dark-mode.css';
-        } else { //if theme is not light mode 
-            newTheme = 'css/Boostore.css';
-        }
+        <h1 class="main-title">Book Details</h1>
+        <h3 class="sub-title">${book.title}</h3>
 
-        // implement the new theme and save the choice to localStorage
-        themeLink.setAttribute('href', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
-});
+        <div class="details-container">
+            <img class="book-image" src="${book.cover}" alt="${book.title}">
 
+            <div class="content-section">
+                <p class="book-description">
+                    <b>Information about the book:</b> ${book.description}
+                </p>
 
-
-
+                <ul class="info-list">
+                    <li><strong>Author</strong>.....<i>${book.author}</i></li>
+                    <li><strong>Genre</strong> ...<i>${book.genre}</i></li>
+                    <li><strong>Year</strong> ....<i>${book.year}</i></li>
+                    <li><strong>Pages</strong> ....<i>${book.pages}</i></li>
+                    <li><strong>Rating</strong>....⭐ <i>${book.rating}</i></li>
+                </ul>
+            </div>
+        </div>
+    `;
+}
+else{
+    details_container.innerHTML=`<p>Book not found...</p>`;
+}
