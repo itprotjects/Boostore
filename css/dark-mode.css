@@ -637,7 +637,7 @@ body {
     .text{
         display: flex;
         flex-direction: column;
-        color: #7b6cff;
+        color:whitesmoke;
     }
     .user-photo{
     border-radius: 50%;
@@ -650,7 +650,7 @@ body {
     
         padding: 8px 18px;
         background-color: #1f2a44;
-        color:#7b6cff;
+        color:whitesmoke;
         border: none;
         font-size: 30px;
         text-transform: capitalize;   
@@ -665,7 +665,7 @@ body {
         width: 98%;
         margin: 20px;
         border-collapse: collapse;
-        color: #7b6cff;
+        color: whitesmoke;
     }
     th{
         text-align: left;
@@ -688,3 +688,66 @@ body {
         color: #333;
         cursor: pointer;
     }
+
+
+
+    /* -------- contact us page ----------- */
+.contact-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background image */
+    background: url("../images/contact-us.jpg") center/cover no-repeat;
+}
+
+/* floating form */
+.contact-form-box {
+    width: 380px;
+    padding: 25px;
+    border-radius: 12px;
+
+    /* glass effect */
+    background: #2a3558;
+    backdrop-filter: blur(5px);
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.contact-form-box h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form-box textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #151e37;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form-box button:hover {
+    background: #2a3558;
+}
