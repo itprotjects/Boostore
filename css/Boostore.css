@@ -552,3 +552,80 @@ body {
 
 
 
+/* ---------- login page ------------ */
+.login-body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d2deee;
+    font-family: Arial, sans-serif;
+}
+
+/* Main box */
+.login-side {
+    display: flex;
+    width: 800px;
+    height: 450px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* LEFT */
+.form-area {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-area h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.under-h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-area input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.form-area button {
+    padding: 10px;
+    border: none;
+    background: #688fb8;
+    color: #333;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.form-area button:hover {
+    background: #d2deee;
+}
+
+.switch-to-signups {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.switch-to-signups a {
+    color: #688fb8;
+    text-decoration: none;
+}
+
+/* RIGHT */
+.image-area {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
