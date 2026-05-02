@@ -8,43 +8,44 @@ const author_container = document.getElementById("author_page");// get id to wri
 if(author){
     //write html
     author_container.innerHTML = `
+    <h2 class="name-author">${author.author}</h2>
     <section class="author-container">
-    <div class="image-Author">
-    <img src="${author.images_Author}" alt="${author.author}">
-    </div>
-    <div class="about-author">
-    <p class="inf"><b>About the Author </b></p>
-    <p>${author.about_author}</p>
-            </div>
-            </section>
-            <hr>
-            <h2 class="section-name">Books by ${author.author}</h2>
-            <section id="books" class="grid"></section>
-            `;
-            
-            
-            const books_render = document.getElementById("books");
-            
-            const author_books = books.filter(b => b.author === author.author);
-            
-            
-            author_books.forEach(b => {
-                const bookCard = document.createElement("div"); // Create a new div
-                bookCard.classList.add("book"); // Give it the class
-                
-                bookCard.innerHTML = `
-                <a href="details.html?id=${b.id}">
-                <img src="${b.cover}" alt="${b.title}">
-                <h3>${b.title}</h3>
-                <p class="author-name">${b.author}</p>
-                <p>${b.genre} | ${b.year}</p>
-                <p class="meta">⭐ ${b.rating} | ${b.pages} pages</p>
-                </a>
-                `;
-                
-                books_render.appendChild(bookCard); // Put it in the grid
-            });
-            
-        } else {
-            author_container.innerHTML = `<p>Author or Book not found.</p>`;
-        }
+        <div class="image-Author">
+            <img src="${author.images_Author}" alt="${author.author}">
+        </div>
+        <div class="about-author">
+            <p class="inf"><b>About the Author </b></p>
+            <p>${author.about_author}</p>
+        </div>
+    </section>
+    <hr>
+    <h2 class="section-name">Books by ${author.author}</h2>
+    <section id="books" class="grid"></section>
+    `;
+    
+    
+    const books_render = document.getElementById("books");
+    
+    const author_books = books.filter(b => b.author === author.author);
+    
+    
+    author_books.forEach(b => {
+        const bookCard = document.createElement("div"); // Create a new div
+        bookCard.classList.add("book"); // Give it the class
+        
+        bookCard.innerHTML = `
+        <a href="details.html?id=${b.id}">
+        <img src="${b.cover}" alt="${b.title}">
+        <h3>${b.title}</h3>
+        <p class="author-name">${b.author}</p>
+        <p>${b.genre} | ${b.year}</p>
+        <p class="meta">⭐ ${b.rating} | ${b.pages} pages</p>
+        </a>
+        `;
+        
+        books_render.appendChild(bookCard); // Put it in the grid
+    });
+    
+} else {
+    author_container.innerHTML = `<p>Author or Book not found.</p>`;
+}
