@@ -653,23 +653,20 @@ body {
         color:whitesmoke;
     }
     .user-photo{
-    border-radius: 50%;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
     margin:10px
     }
 
-    .button{
-    
-        padding: 8px 18px;
-        background-color: #1f2a44;
+   h2{
         color:whitesmoke;
-        border: none;
         font-size: 30px;
         text-transform: capitalize;   
+        margin: 20px;
     }
     .cover-photo{
-        width: 50ppx;
+        width: 50px;
         height: 60px;
         border-radius: 5px;
         object-fit: cover;
@@ -682,17 +679,15 @@ body {
     }
     th{
         text-align: left;
-        padding: 12px 15px;
         border-bottom: 2px solid #688fb8;
-    
         text-transform: capitalize;
         font-size: 30px;
-
+        padding:15px;
     }
     td{
-        padding: 15px;
         border-bottom: 1px solid #688fb8;
         font-size: 20px;
+        padding: 15px;
         text-transform:uppercase ;
     }
 
