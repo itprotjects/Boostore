@@ -124,6 +124,7 @@ body {
         text-align: center;
         margin-bottom: 30px;
         transition: 0.3s;
+      
 
     }
 
@@ -665,7 +666,7 @@ border-radius: 50%;
 margin:10px
 }
 
-h2{
+.my-books{
     color:#688fb8;
     font-size: 30px;
     text-transform: capitalize; 
