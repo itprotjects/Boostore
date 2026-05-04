@@ -138,6 +138,7 @@ body {
     }
 
     .video-box {
+        width: 500px;
         background: #7C6CFF;
         padding: 20px;
         border-radius: 12px;
@@ -147,6 +148,12 @@ body {
         justify-content: center;
         box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
         transition: 0.3s;
+    }
+    
+    .video-box video {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     .featured {
