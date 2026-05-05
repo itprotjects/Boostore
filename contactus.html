@@ -1,104 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Boostore.css" id="theme-link">
-    <link rel="stylesheet" href="css/responsive.css">
-    <title>BOOKNEST</title>
-</head>
-<body>
-    <header class="header">
-        <h1 class="web-name"><a href="index.html">Booknest</a></h1>
-        <button class="theme-change"> change theme</button>
-
-        <nav class="header-bar">
-            <!-- class name used for later -->
-            <div class="nav-item">
-               <a href="login.html" class="login-page">
-                    <svg viewBox="0 0 16 16" width="18px" height="18px">
-                        <path fill-rule="evenodd" d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z" clip-rule="evenodd" />
-                    </svg>
-                   Login
-                </a>
-            </div>
-            <div class="nav-item">
-                
-                <a href="signup.html" class="signup-page">
-                    <svg viewBox="0 0 16 16" width="18px" height="18px">
-                        <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
-                    </svg>
-
-                    Sign up
-                </a>
-            </div>
-            <div class="nav-item">
-                
-                
-                <a href="index.html" class="home-page">
-                    <svg viewBox="0 0 16 16" width="18px" height="18px">
-                        <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z" />
-                    </svg>     
-                    Home
-                </a>
-            </div>
-            <div class="nav-item">
-               
-                <a href="books.html" class="books-page">
-                    <svg viewBox="0 0 16 16" width="18px" height="18px">
-                      <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
-                    </svg>                    
-                    Books
-                </a>
-            </div>
-            
-            <div class="nav-item">
-                <a href="contactus.html" class="contact-us-page">
-                    <svg viewBox="0 0 16 16" width="18px" height="18px">
-                        <path fill-rule="evenodd" d="m3.855 7.286 1.067-.534a1 1 0 0 0 .542-1.046l-.44-2.858A1 1 0 0 0 4.036 2H3a1 1 0 0 0-1 1v2c0 .709.082 1.4.238 2.062a9.012 9.012 0 0 0 6.7 6.7A9.024 9.024 0 0 0 11 14h2a1 1 0 0 0 1-1v-1.036a1 1 0 0 0-.848-.988l-2.858-.44a1 1 0 0 0-1.046.542l-.534 1.067a7.52 7.52 0 0 1-4.86-4.859Z" clip-rule="evenodd" />
-                    </svg>
-                    Contact Us
-                </a>
-            </div>
-            <div class="nav-item">
-               
-                <a href="profile.html" class="profile">
-                    <svg viewBox="0 0 16 16" width="18px" height="18px">
-                        <path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.435V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.784Z" />
-                    </svg>
-                    profile
-                </a>
-            </div>
-        </nav>
-    </header>
-
-    <main class="contact-page">
-
-    <div class="contact-form-box">
-        <h2>Contact Us</h2>
-
-        <form>
-            <input type="text" placeholder="Your Name" >
-            <input type="text" placeholder="Your Email">
-            <input type="text" placeholder="Subject">
-
-            <textarea placeholder="Your Message"></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
-
-</main>
-
-<footer>
-        <hr>
-        <p>&copy; 2026 Book Fair - Contact Us Page</p>
-
-    </footer>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="JS/theme.js"></script>
-<script src="JS/data.js"></script>
-<script src="JS/profile.js"></script>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Boostore.css" id="theme-link">
+        <link rel="stylesheet" href="css/responsive.css">
+        <title>BOOKNEST</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="web-name"><a href="index.html">Booknest</a></h1>
+            <button class="theme-change"> change theme</button>
+            <nav class="header-bar">
+                <!-- class name used for later -->
+                <div class="nav-item">
+                <a href="login.html" class="login-page">
+                        <svg viewBox="0 0 16 16" width="18px" height="18px">
+                            <path fill-rule="evenodd" d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z" clip-rule="evenodd" />
+                        </svg>
+                    Login
+                    </a>
+                </div>
+                <div class="nav-item">                
+                    <a href="signup.html" class="signup-page">
+                        <svg viewBox="0 0 16 16" width="18px" height="18px">
+                            <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+                        </svg>
+                        Sign up
+                    </a>
+                </div>
+                <div class="nav-item">                                
+                    <a href="index.html" class="home-page">
+                        <svg viewBox="0 0 16 16" width="18px" height="18px">
+                            <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z" />
+                        </svg>     
+                        Home
+                    </a>
+                </div>
+                <div class="nav-item">               
+                    <a href="books.html" class="books-page">
+                        <svg viewBox="0 0 16 16" width="18px" height="18px">
+                        <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
+                        </svg>                    
+                        Books
+                    </a>
+                </div>            
+                <div class="nav-item">
+                    <a href="contactus.html" class="contact-us-page">
+                        <svg viewBox="0 0 16 16" width="18px" height="18px">
+                            <path fill-rule="evenodd" d="m3.855 7.286 1.067-.534a1 1 0 0 0 .542-1.046l-.44-2.858A1 1 0 0 0 4.036 2H3a1 1 0 0 0-1 1v2c0 .709.082 1.4.238 2.062a9.012 9.012 0 0 0 6.7 6.7A9.024 9.024 0 0 0 11 14h2a1 1 0 0 0 1-1v-1.036a1 1 0 0 0-.848-.988l-2.858-.44a1 1 0 0 0-1.046.542l-.534 1.067a7.52 7.52 0 0 1-4.86-4.859Z" clip-rule="evenodd" />
+                        </svg>
+                        Contact Us
+                    </a>
+                </div>
+                <div class="nav-item">               
+                    <a href="profile.html" class="profile">
+                        <svg viewBox="0 0 16 16" width="18px" height="18px">
+                            <path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.435V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.784Z" />
+                        </svg>
+                        profile
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main class="contact-page">
+        <div class="contact-form-box">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" >
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+            <hr>
+            <p>&copy; 2026 Book Fair - Contact Us Page</p>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="JS/theme.js"></script>
+    <script src="JS/data.js"></script>
+    <script src="JS/profile.js"></script>
+    </body>
 </html>
+
