@@ -14,33 +14,35 @@
     </header>
     
 
+    
+    <!-- body of the from -->
     <main class="login-body">
+         <!-- form container -->
         <div class="login-side">
-
             <!-- form to the left -->
             <div class="form-area">
+                <!-- inside the form -->
                 <form id="loginForm">
+                     <!-- title name (log in) -->
                     <h2>Login</h2>
                     <div class="under-h2">
-                        <input id="loginEmail" type="text" placeholder="Email">
-                        <input id="loginPassword" type="password" placeholder="Password" >
-    
+                         <!-- e mail and password -->
+                        <input id="login_email" type="text" placeholder="Email">
+                        <input id="login_password" type="password" placeholder="Password" >    
                         <button type="submit">Login</button>
                     </form>
-                    <div id="loginError" style="color: red; display: none;"></div>
-    
+                     <!-- submit without doing anything = error -->
+                    <div id="loginError" style="color: red; display: none;"></div>    
                     <p class="switch-to-signups">
                         Don't have an account? 
                         <a href="signup.html">Sign Up</a>
                     </p>
                     </div>
             </div>
-
             <!-- image to the right -->
             <img class="image-area" 
                 src="images/login.jpeg" 
                 alt="book shelf">
-
         </div>
     </main>
     <script src="JS/theme.js"></script>
