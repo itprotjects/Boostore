@@ -566,7 +566,7 @@ body {
 
 
 
-/* ---------- login page ------------ */
+/* ---------- login page & sign up------------ */
 .login-body {
     height: 100vh;
     display: flex;
@@ -680,7 +680,7 @@ margin:10px
     text-transform: capitalize;   
 }
 .cover-photo{
-    width: 50ppx;
+    width: 50px;
     height: 60px;
     border-radius: 5px;
     object-fit: cover;
