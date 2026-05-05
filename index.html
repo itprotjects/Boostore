@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Boostore.css" id="theme-link">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Boostore</title>
+    <title>BOOKNEST</title>
 </head>
 <body>
     <header class="header">
@@ -88,6 +88,16 @@
                     <video controls muted>
                         <source src="images/book-shelf.mp4">
                     </video>
+
+                    <img src="images/search.jpg" usemap="#mainMap" width="350px">
+
+                    <map name="mainMap">
+
+                        <area shape="rect" coords="0,0,400,500" href="books.html" alt="Books Section">
+
+                        <area shape="rect" coords="400,0,800,500" href="authors.html" alt="Authors">
+
+                    </map>
                 </div>
             </div>
 
@@ -114,8 +124,9 @@
         <p>&copy; 2026 Book Fair - Home Page</p>
 
     </footer>
-    <script src="JS/theme.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="JS/data.js"></script>
+    <script src="JS/theme.js"></script>
     <script src="JS/Boostore.js"></script>
 </body>
 </html>
