@@ -81,3 +81,20 @@ if (savedLayout === "list") {
 
 // display on the page
 displayBooks(books);
+
+
+//search in Jquery
+const searchForm = $(".search-bar");
+const searchInput = $(".search-bar input");
+
+searchForm.on("submit", function (search) {
+    search.preventDefault();
+
+    const query = searchInput.val().toLowerCase().trim();
+
+    const filteredBooks = books.filter(book => {
+        return book.title.toLowerCase().includes(query);
+    });
+
+    displayBooks(filteredBooks);
+});
