@@ -14,19 +14,25 @@
     </header>
 
 
-    <main class="login-body">
-        <div class="login-side">
 
+
+
+
+    <!-- body of the form in the sign up -->
+    <main class="login-body">
+         <!-- form container -->
+        <div class="login-side">
             <!-- image to the left -->
             <img class="image-area" 
                 src="images/sign-up.jpeg" 
                 alt="read more books">
-
             <!-- form to the right -->
             <div class="form-area">
+                <!-- inside the form -->
                 <form id="signupForm">
+                     <!-- title name -->
                     <h2>Sign Up</h2>
-
+                     <!-- name, email, password, confirm -->
                     <div class="under-h2">
                         <input id="signupName" type="text" placeholder="Full Name" >
                         <input id="signupEmail" type="text" placeholder="Email" >
@@ -36,15 +42,13 @@
                         <button type="submit">Sign Up</button>
                     </div>
                 </form>
-
+                 <!-- not filling anyhting = error -->
                 <div id="signupError" style="color: red; display: none;"></div>
-
                 <p class="switch-to-signups">
                     Already have an account?
                     <a href="login.html">Login</a>
                 </p>
             </div>
-
         </div>
     </main>
     <script src="JS/theme.js"></script>
