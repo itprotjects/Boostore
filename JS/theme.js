@@ -1,17 +1,22 @@
+// الجزء ده مخصوص عشان يغير ال ثيم بتاع الصفحة و يحفظ انهي لون مختار
+
+
+// استنى لغاية ما الصفحة تحمل بعدين اشتغل
 document.addEventListener('DOMContentLoaded', () => {
+    // ياخد ال هي دي و الكلاس
     const themeBtn = document.querySelector('.theme-change');
     const themeLink = document.querySelector('#theme-link');
 
     // check if theme was already saved
-    const savedTheme = localStorage.getItem('theme');
+    const savedTheme = localStorage.getItem('theme'); // يستدع أو يخذن
 
-
+// يتأكد انه مش NULL
     if (savedTheme) {
-        themeLink.setAttribute('href', savedTheme);
+        themeLink.setAttribute('href', savedTheme); // غير ال css file
     }
-
+// لما يدوس اشتغل
     themeBtn.addEventListener('click', () => {
-        let currentTheme = themeLink.getAttribute('href');
+        let currentTheme = themeLink.getAttribute('href'); // يقرأ الفايل الشغال
         let newTheme;
 
         if (currentTheme === 'css/Boostore.css') { //if theme is light mode
