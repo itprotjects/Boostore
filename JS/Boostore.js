@@ -3,30 +3,18 @@
 
 // render function to display to the books page //
 // buttons //
-const gridBtn = document.getElementById("gridBtn");
-const listBtn = document.getElementById("listBtn");
+const container = $("#featuredBooks");
 
-const booksContainer = document.getElementById("books");
-
-function displayBooks(list) {
-booksContainer.innerHTML = "";
-    list.forEach(book => {
-        const bookCard = document.createElement("div");
-        bookCard.classList.add("book");
-
-        bookCard.innerHTML = `
-            <a href="details.html?id=${book.id}">
-                <img src="${book.cover}" alt="${book.title}">
-                <h3>${book.title}</h3>
-                <p class="author-name">${book.author}</p>
-                <p>${book.genre} | ${book.year}</p>
-                <p class="meta">⭐ ${book.rating} | ${book.pages} pages</p>
-            </a>
-        `;
-
-        booksContainer.appendChild(bookCard);
-    });
-}
+books.slice(0, 7).forEach(book => {
+    container.append(`
+        <div class="book-card">
+            <img src="${book.cover}" alt="${book.title}">
+            <h3>${book.title}</h3>
+            <p>${book.author}</p>
+            <a href="details.html?id=${book.id}">View</a>
+        </div>
+    `);
+});
 
 /* <div class="book"> 
     <a href="book id">
