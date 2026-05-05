@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Boostore.css" id="theme-link">
     <link rel="stylesheet" href="css/responsive.css">
-    
-    <title>Boostore</title>
+    <title>BOOKNEST</title>
 </head>
 <body>
     <header class="header">
@@ -78,51 +77,45 @@
         <div class="user-info">
             <img src="images/user.png" class="user-photo">
             <div class="text">
-            <h1 class="user">User Name</h1>
-            <p>email</p>
+            <h1>User Name</h1>
             <p>bio</p>
-            </div>
+
         </div>
-        
+        </div>
         <div>
-        <h2 class="my-books">my books (2books)</h2>
+        <div class="buttons">
+        <button class="button">my books (2books)</button>
         
+        </div>
+        <div class="currently-reading"></div>
         <table>
-            <thead>
             <tr>
                 <th>cover</th>
                 <th>book name</th>
                 <th>author</th>
             </tr>
-            </thead>
-            <tbody>
             <tr class="row">
-                <td><img src="images/atomic-habits.jpg" class="cover-photo"></td>
-                <td>atomic habits</td>
-                <td>james clear</td>
+                <td><img src="images/1984.jpg" class="cover-photo"></td>
+                <td><h4>1984</h4></td>
+                <td><h4>George Orwell</h4></td>
                 
             </tr>
             <tr class="row">
                 
-                <td><img src="images/grow-rich.jpg" class="cover-photo"></td>
-                <td>think and grow rich</td>
-                <td>napoleon hill</td>
+                <td><img src="images/A-Game-of-Thrones.jpg" alt="a game of thrones cover" class="cover-photo"></td>
+                <td><h4></h4>A Game Of Thrones</td>
+                <td><h4></h4>George R.R. Martin</td>
             </tr>
-            </tbody>
         </table>
-       
+        <button id="logoutBtn" class="button" style="color: brown;">Logout</button>
+        
         </div>
 
     </main>
 
-    <!-- leader work on it :) -->
-    <footer>
-
-    </footer>
-
-    <script src="JS/theme.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="JS/data.js"></script>
-    <script src="JS/Boostore.js"></script>
-  
+    <script src="JS/theme.js"></script>
+    <script src="JS/profile.js"></script>
 </body>
 </html>
