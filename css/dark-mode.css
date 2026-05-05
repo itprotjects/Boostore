@@ -676,7 +676,7 @@ body {
         text-transform: capitalize;   
     }
     .cover-photo{
-        width: 50ppx;
+        width: 50px;
         height: 60px;
         border-radius: 5px;
         object-fit: cover;
