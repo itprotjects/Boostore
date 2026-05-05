@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Boostore.css" id="theme-link">
     <link rel="stylesheet" href="css/responsive.css">
-    <title>Boostore</title>
+    <title>BOOKNEST</title>
 </head>
 <body>
     <header class="header">
@@ -19,14 +19,15 @@
 
             <!-- form to the left -->
             <div class="form-area">
-                <form>
+                <form id="loginForm">
                     <h2>Login</h2>
                     <div class="under-h2">
-                        <input type="text" placeholder="Email">
-                        <input type="password" placeholder="Password" >
+                        <input id="loginEmail" type="text" placeholder="Email">
+                        <input id="loginPassword" type="password" placeholder="Password" >
     
                         <button type="submit">Login</button>
                     </form>
+                    <div id="loginError" style="color: red; display: none;"></div>
     
                     <p class="switch-to-signups">
                         Don't have an account? 
@@ -38,11 +39,11 @@
             <!-- image to the right -->
             <img class="image-area" 
                 src="images/login.jpeg" 
-                alt="">
+                alt="book shelf">
 
         </div>
     </main>
     <script src="JS/theme.js"></script>
-
+    <script src="JS/validation.js"></script>
 </body>
 </html>
