@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (loginForm) {
     loginForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      const email = document.getElementById('loginEmail').value.trim();
-      const password = document.getElementById('loginPassword').value.trim();
+      const email = document.getElementById('login_email').value.trim();
+      const password = document.getElementById('login_password').value.trim();
       const errorDiv = document.getElementById('loginError');
       errorDiv.style.display = 'none';
       errorDiv.textContent = '';
@@ -26,8 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
       window.location.href = 'index.html';
     });
   }
-
-
 
 
 
